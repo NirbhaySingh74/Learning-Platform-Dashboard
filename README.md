@@ -17,7 +17,7 @@ A React-based dashboard for an online learning platform featuring course browsin
 ## Installation
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/NirbhaySingh74/Learning-Platform-Dashboard.git
 ```
 
 2. Install dependencies:
