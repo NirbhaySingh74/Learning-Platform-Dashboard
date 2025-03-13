@@ -1,11 +1,14 @@
-import { BsPlay } from 'react-icons/bs';
-import { SpeakerWaveIcon, ArrowsPointingOutIcon } from '@heroicons/react/24/outline';
+import { BsPlay } from "react-icons/bs";
+import {
+  SpeakerWaveIcon,
+  ArrowsPointingOutIcon,
+} from "@heroicons/react/24/outline";
 
 export default function VideoPlayer() {
   return (
     <div className="relative rounded-xl overflow-hidden bg-black">
-      <img 
-        src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=1000" 
+      <img
+        src="https://images.unsplash.com/photo-1580894732930-0babd100d356?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D"
         alt="Course video"
         className="w-full h-[400px] object-cover opacity-90"
       />

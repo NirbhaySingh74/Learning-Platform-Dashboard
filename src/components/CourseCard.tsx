@@ -13,6 +13,7 @@ export default function CourseCard({ title, description, rating, reviews, level,
   return (
     <div className="flex gap-4 p-4 bg-white rounded-xl hover:shadow-lg transition-shadow">
       <img src={image} alt={title} className="w-24 h-24 rounded-lg object-cover" />
+      <img src={image} alt={title} className="w-24 h-24 rounded-lg object-cover" />
       <div className="flex-1">
         <h3 className="font-semibold text-gray-900">{title}</h3>
         <p className="text-sm text-gray-500 mt-1 line-clamp-2">{description}</p>
